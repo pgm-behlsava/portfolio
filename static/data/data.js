@@ -117,42 +117,42 @@ export const projects = [
     name: "Lightopia",
     subject: "@Work1",
     description: "De vereenvoudigde site van de winterfeesten in het kasteel van Groot-Bijgaarden.",
-    thumbnailUrl: "/static/images/projects/lightopia.png",
+    thumbnailUrl: "static/images/projects/lightopia.png",
     url: "https://pgmgent-atwork-1.github.io/opdracht-1-lightopia-pgm-behlsava/"
   },
   {
     name: "Rock Werchter",
     subject: "Programming 1",
     description: "Opdracht: Site ontwerpen voor Rock Werchter 2023",
-    thumbnailUrl: "/static/images/projects/rock-werchter.png",
+    thumbnailUrl: "static/images/projects/rock-werchter.png",
     url: "https://github.com/pgmgent-pgm-1/opdrachten-rockwerchter-pgmo1-al-pgm-behlsava"
   },
   {
     name: "Gentse Feesten 2024",
     subject: "@Work1",
     description: "Opdracht: Site nabouwen van Gentse Feesten 2024",
-    thumbnailUrl: "/static/images/projects/gentse-feesten.png",
+    thumbnailUrl: "static/images/projects/gentse-feesten.png",
     url: "https://pgmgent-atwork-1.github.io/opdracht-2-gentse-feesten-pgm-behlsava/"
   },
   {
     name: "ReceptWeb",
     subject: "Programming 2",
     description: "Webapplicatie voor het bekijken en toevoegen van recepten",
-    thumbnailUrl: "/static/images/projects/receptweb.png",
+    thumbnailUrl: "static/images/projects/receptweb.png",
     url: "https://github.com/pgmgent-pgm-2/opdracht-1-receptweb-pgm-behlsava"
   },
   {
     name: "Coding Wizards Meetup",
     subject: "Programming 1",
     description: "Een simpele Node.js applicatie om meetings te printen",
-    thumbnailUrl: "/static/images/projects/coding-wizards.png",
+    thumbnailUrl: "static/images/projects/coding-wizards.png",
     url: "https://github.com/pgmgent-pgm-1/opdrachten-codingwizardsmeetups-pgmo1-al-pgm-behlsava"
   },
   {
     name: "Just Do IT",
     subject: "Programming 3",
     description: "Opdracht: Een To-Do applicatie ontwikkelen met Handlebars (Template Engine)",
-    thumbnailUrl: "/static/images/projects/just-do-it.png",
+    thumbnailUrl: "static/images/projects/just-do-it.png",
     url: "https://github.com/pgmgent-pgm-3/opdracht-1-to-do-application-al-pgm-behlsava"
   },
 ];
