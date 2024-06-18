@@ -1,0 +1,11 @@
+const $catchPhrase = document.getElementById('catchPhrase');
+const $headshot = document.querySelector('.headshot img');
+const $greeting = document.getElementById('greeting');
+const $parallax = document.getElementById('parallax');
+const $scrollButton = document.getElementById('scrollButton');
+const $technologiesList = document.getElementById('tech-list');
+const $servicesList = document.getElementById('services-list');
+const $serviceCards = document.getElementsByClassName('service-card');
+const $projectsList = document.getElementById('project-list');
+
+export {$catchPhrase, $headshot, $greeting, $parallax, $scrollButton, $technologiesList, $servicesList, $serviceCards, $projectsList};

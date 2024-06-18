@@ -1,0 +1,1039 @@
+/*
+---------------------------
+  FONTS
+---------------------------
+*/
+
+@font-face {
+  font-family: "Fira Sans";
+  src: url("../fonts/Fira_Sans/FiraSans-Black.woff2") format("woff2"),
+    url("../fonts/Fira_Sans/FiraSans-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  src: url("../fonts/Fira_Sans/FiraSans-Bold.woff2") format("woff2"),
+    url("../fonts/Fira_Sans/FiraSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  src: url("../fonts/Fira_Sans/FiraSans-BlackItalic.woff2") format("woff2"),
+    url("../fonts/Fira_Sans/FiraSans-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  src: url("../fonts/Fira_Sans/FiraSans-ExtraBold.woff2") format("woff2"),
+    url("../fonts/Fira_Sans/FiraSans-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  src: url("../fonts/Fira_Sans/FiraSans-BoldItalic.woff2") format("woff2"),
+    url("../fonts/Fira_Sans/FiraSans-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  src: url("../fonts/Fira_Sans/FiraSans-ExtraLight.woff2") format("woff2"),
+    url("../fonts/Fira_Sans/FiraSans-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  src: url("../fonts/Fira_Sans/FiraSans-ExtraBoldItalic.woff2") format("woff2"),
+    url("../fonts/Fira_Sans/FiraSans-ExtraBoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  src: url("../fonts/Fira_Sans/FiraSans-Italic.woff2") format("woff2"),
+    url("../fonts/Fira_Sans/FiraSans-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  src: url("../fonts/Fira_Sans/FiraSans-ExtraLightItalic.woff2") format("woff2"),
+    url("../fonts/Fira_Sans/FiraSans-ExtraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  src: url("../fonts/Fira_Sans/FiraSans-Light.woff2") format("woff2"),
+    url("../fonts/Fira_Sans/FiraSans-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  src: url("../fonts/Fira_Sans/FiraSans-Medium.woff2") format("woff2"),
+    url("../fonts/Fira_Sans/FiraSans-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  src: url("../fonts/Fira_Sans/FiraSans-LightItalic.woff2") format("woff2"),
+    url("../fonts/Fira_Sans/FiraSans-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  src: url("../fonts/Fira_Sans/FiraSans-MediumItalic.woff2") format("woff2"),
+    url("../fonts/Fira_Sans/FiraSans-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  src: url("../fonts/Fira_Sans/FiraSans-Regular.woff2") format("woff2"),
+    url("../fonts/Fira_Sans/FiraSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  src: url("../fonts/Fira_Sans/FiraSans-SemiBold.woff2") format("woff2"),
+    url("../fonts/Fira_Sans/FiraSans-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  src: url("../fonts/Fira_Sans/FiraSans-SemiBoldItalic.woff2") format("woff2"),
+    url("../fonts/Fira_Sans/FiraSans-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  src: url("../fonts/Fira_Sans/FiraSans-Thin.woff2") format("woff2"),
+    url("../fonts/Fira_Sans/FiraSans-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  src: url("../fonts/Fira_Sans/FiraSans-ThinItalic.woff2") format("woff2"),
+    url("../fonts/Fira_Sans/FiraSans-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik Mono One";
+  src: url("../fonts/Rubik_Mono_One/RubikMonoOne-Regular.woff2") format("woff2"),
+    url("../fonts/Rubik_Mono_One/RubikMonoOne-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Reddit Sans Condensed";
+  src: url("../fonts/Reddit_Sans_Condensed/RedditSansCondensed-Black.woff2")
+      format("woff2"),
+    url("../fonts/Reddit_Sans_Condensed/RedditSansCondensed-Black.woff")
+      format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Reddit Sans Condensed";
+  src: url("../fonts/Reddit_Sans_Condensed/RedditSansCondensed-Medium.woff2")
+      format("woff2"),
+    url("../fonts/Reddit_Sans_Condensed/RedditSansCondensed-Medium.woff")
+      format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Reddit Sans Condensed";
+  src: url("../fonts/Reddit_Sans_Condensed/RedditSansCondensed-Light.woff2")
+      format("woff2"),
+    url("../fonts/Reddit_Sans_Condensed/RedditSansCondensed-Light.woff")
+      format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Reddit Sans Condensed";
+  src: url("../fonts/Reddit_Sans_Condensed/RedditSansCondensed-Bold.woff2")
+      format("woff2"),
+    url("../fonts/Reddit_Sans_Condensed/RedditSansCondensed-Bold.woff")
+      format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Reddit Sans Condensed";
+  src: url("../fonts/Reddit_Sans_Condensed/RedditSansCondensed-ExtraBold.woff2")
+      format("woff2"),
+    url("../fonts/Reddit_Sans_Condensed/RedditSansCondensed-ExtraBold.woff")
+      format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Reddit Sans Condensed";
+  src: url("../fonts/Reddit_Sans_Condensed/RedditSansCondensed-SemiBold.woff2")
+      format("woff2"),
+    url("../fonts/Reddit_Sans_Condensed/RedditSansCondensed-SemiBold.woff")
+      format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Reddit Sans Condensed";
+  src: url("../fonts/Reddit_Sans_Condensed/RedditSansCondensed-ExtraLight.woff2")
+      format("woff2"),
+    url("../fonts/Reddit_Sans_Condensed/RedditSansCondensed-ExtraLight.woff")
+      format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Reddit Sans Condensed";
+  src: url("../fonts/Reddit_Sans_Condensed/RedditSansCondensed-Regular.woff2")
+      format("woff2"),
+    url("../fonts/Reddit_Sans_Condensed/RedditSansCondensed-Regular.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*
+---------------------------
+  Root
+---------------------------
+*/
+
+:root {
+  --darkblue: hsl(222, 55%, 12%);
+  --mediumblue: hsl(209, 68%, 15%);
+  /* --lightblue: hsl(219, 45%, 41%); */
+  --lightblue: hsl(220, 64%, 40%);
+  --black: hsl(0, 0%, 0%);
+  --white: hsla(195, 13%, 88%, 1);
+  --silver: hsl(208, 12%, 55%);
+}
+
+/*
+---------------------------
+  Helpers
+---------------------------
+*/
+
+.tac {
+  text-align: center;
+}
+
+.pt4rem {
+  padding-top: 4rem;
+}
+
+.pt8rem {
+  padding-top: 8rem;
+}
+
+.pb4rem {
+  padding-bottom: 4rem;
+}
+
+.mxw800 {
+  max-width: 50rem;
+}
+
+.mxw600 {
+  max-width: 37.5rem;
+}
+
+.link {
+  color: var(--lightblue);
+  transition: 0.2s;
+}
+
+.link:hover {
+  color: var(--white);
+}
+
+.btn {
+  padding: 1rem 1rem;
+  color: var(--lightblue);
+  background-color: var(--white);
+  border: 1px solid transparent;
+  transition: 0.4s;
+}
+
+.btn:hover {
+  cursor: pointer;
+  border: 1px solid var(--silver);
+  animation: pulse 1.5s infinite;
+  transform: scale(1.1);
+}
+
+/*
+---------------------------
+  Tags
+---------------------------
+*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Fira Sans", Verdana, sans-serif;
+  font-size: 1rem;
+  letter-spacing: calc(1rem * 0.1);
+  color: var(--white);
+  transition-duration: 2s;
+}
+
+hr {
+  width: 50%;
+  color: var(--silver);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Reddit Sans Condensed";
+  font-weight: 500;
+  letter-spacing: 0.3rem;
+  color: var(--white);
+  transform: scale(0);
+  transition: 1s ease;
+  width: 50%;
+  font-size: 2rem;
+}
+
+@media (max-width: 550px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 380px) {
+  h1 {
+    font-size: 1rem;
+  }
+}
+
+h2 {
+  font-family: "Reddit Sans Condensed";
+  letter-spacing: 0.3rem;
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+h4 {
+  font-family: "Reddit Sans Condensed";
+  letter-spacing: 0.1rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: 0.2s;
+}
+
+@media (max-width: 400px) {
+  p {
+    font-size: 0.8rem;
+  }
+}
+
+/*
+---------------------------
+  Wrapper
+---------------------------
+*/
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--mediumblue);
+  width: 100%;
+}
+
+/*
+---------------------------
+  Jumbotron
+---------------------------
+*/
+
+.jumbo-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(37, 80, 167);
+  background: linear-gradient(
+    180deg,
+    rgb(32, 53, 95) 40%,
+    rgba(12, 39, 64, 1) 86%
+  );
+  width: 100%;
+}
+
+.jumbotron {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  font-family: "Rubik Mono One";
+  color: var(--mediumblue);
+  max-height: 100vh;
+}
+
+@media (max-width: 550px) {
+  .jumbotron {
+    max-height: 100vh;
+  }
+}
+
+.headshot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-size: 2rem;
+  margin: 5rem;
+  width: 50%;
+}
+
+@media (max-width: 550px) {
+  .headshot {
+    flex-direction: column;
+  }
+}
+
+.headshot img {
+  width: 15rem;
+  transform: scale(0);
+  transition: 1.5s ease;
+}
+
+.headshot img:hover ~ .headshot-textbubble {
+  font-size: 3rem;
+  animation: wiggle;
+  animation-duration: 0.3s;
+  animation-delay: 1s;
+}
+
+@media (max-width: 550px) {
+  .headshot img:hover ~ .headshot-textbubble {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .headshot img:hover ~ .headshot-textbubble {
+    font-size: 1.75rem;
+  }
+}
+
+.headshot-textbubble {
+  transform: scale(0);
+  transition: 1s all ease-in-out;
+  position: relative;
+  bottom: 2rem;
+  padding: 1rem;
+  background-color: var(--white);
+  border-radius: 1rem;
+}
+
+@media (max-width: 550px) {
+  .headshot-textbubble {
+    font-size: 1.5rem;
+    bottom: -2rem;
+  }
+}
+
+.headshot-textbubble::before {
+  content: " ";
+  position: absolute;
+  left: -1.15rem;
+  top: 50%;
+  border: 10px solid;
+  border-color: transparent var(--white) transparent transparent;
+}
+
+@media (max-width: 550px) {
+  .headshot-textbubble::before {
+    left: 50%;
+    top: -1.15rem;
+    border-color: transparent transparent var(--white)
+    transparent;
+  }
+}
+
+/*
+---------------------------
+  Parallax
+---------------------------
+*/
+
+.parallax {
+  background-image: url("/static/images/stars.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  width: 100vw;
+  max-width: 100%;
+  height: 15rem;
+}
+
+@media (max-width: 550px) {
+  .parallax {
+    height: 20rem;
+  }
+}
+
+/*
+---------------------------
+  About
+---------------------------
+*/
+
+.about-me {
+  width: 50%;
+}
+
+@media (max-width: 500px) {
+  .about-me {
+    font-size: 0.8rem;
+  }
+}
+
+/*
+---------------------------
+  Services
+---------------------------
+*/
+
+.services-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.service-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  background-color: var(--mediumblue);
+  color: var(--lightblue);
+  border: 2px solid transparent;
+  transition: 0.2s all ease;
+  position: relative;
+}
+
+@media (max-width: 800px) {
+  .service-card {
+    width: 60vw;
+  }
+}
+
+@media (max-width: 550px) {
+  .service-card {
+    width: 80vw;
+  }
+}
+
+.service-card::after {
+  content: "";
+  position: absolute;
+  width: .875rem;
+  height: .9375rem;
+  mask: url('../icons/close-button.svg');
+  mask-repeat: no-repeat;
+  mask-position: center;
+  transform: rotate(-45deg);
+  right: 1.5rem;
+  top: 1.5rem;
+  background-color: var(--lightblue);
+  transition: 0.2s ease;
+}
+
+.service-card:hover {
+  cursor: pointer;
+  background-color: var(--darkblue);
+  color: var(--white);
+  border: 2px solid var(--white);
+}
+
+.service-card:hover.service-card::after,
+.service-card.open.service-card::after {
+  background-color: var(--white);
+}
+
+.service-card.open {
+  background-color: var(--darkblue);
+  border: 2px solid transparent;
+  transition: 0.2s;
+}
+
+.service-card.open.service-card::after {
+  transform: none;
+}
+
+.service-card.open:hover {
+  border: 2px solid var(--white);
+}
+
+.service-card.open .service-name {
+  color: var(--white);
+}
+
+.service-card.open .service-description {
+  display: block;
+}
+
+.service-name {
+  font-size: 1.6rem;
+  padding: 0 1rem 1rem;
+  width: 75%;
+}
+
+@media (max-width: 550px) {
+  .service-name {
+    font-size: 1.2rem;
+  }
+}
+
+.service-description {
+  color: var(--white);
+  font-size: 1rem;
+  display: none;
+  text-align: center;
+  width: 90%;
+}
+
+@media (max-width: 500px) {
+  .service-description {
+    font-size: 0.8rem;
+    width: 75%;
+  }
+}
+
+/*
+---------------------------
+  Technologies
+---------------------------
+*/
+
+.tech-list {
+  font-family: "Reddit Sans Condensed";
+  display: grid;
+  grid-template-columns: repeat(5, max-content);
+  gap: 1rem;
+}
+
+@media (max-width: 800px) {
+  .tech-list {
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+  }
+}
+
+@media (max-width: 600px) {
+  .tech-list {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+  }
+}
+
+@media (max-width: 420px) {
+  .tech-list {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.tech-list a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  height: 3rem;
+  color: var(--white);
+  background-color: var(--darkblue);
+  border: 1px solid transparent;
+  transition: 0.2s;
+}
+
+.tech-list a:hover {
+  border: 1px solid var(--white);
+}
+
+/*
+---------------------------
+  Projects
+---------------------------
+*/
+
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+@media (max-width: 950px) {
+  .project-list {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  background-color: var(--darkblue);
+}
+
+@media (max-width: 950px) {
+  .project-card {
+    width: 60vw;
+  }
+}
+
+.project-info > *,
+.project-info {
+  padding: 1rem;
+}
+
+.project-subject {
+  position: absolute;
+  background-color: var(--white);
+  color: var(--darkblue);
+  letter-spacing: 0.1rem;
+  padding: 0rem 0.5rem;
+  top: 1rem;
+  right: 1rem;
+}
+
+.project-card a {
+  width: 100%;
+  height: 100%;
+  color: var(--white);
+  border: 1px solid transparent;
+}
+
+.project-card a:hover {
+  background-color: var(--white);
+  color: var(--darkblue);
+  border: 1px solid var(--silver);
+}
+
+@media (max-width: 500px) {
+  .project-card p {
+    font-size: 0.8rem;
+  }
+}
+
+/*
+---------------------------
+  Scroll Button
+---------------------------
+*/
+
+.scrollButton {
+  transition: 0.4s transform ease-in, 0.2s background-color ease-out;
+  transform: scale(0);
+  width: 0.2rem;
+  height: 0.2rem;
+  position: fixed;
+  z-index: 1;
+  bottom: 5rem;
+  right: 2rem;
+  padding: 2rem;
+  border: 2px solid var(--lightblue);
+  border-radius: 50%;
+  background-color: var(--darkblue);
+}
+
+@media (max-width: 600px) {
+  .scrollButton {
+    padding: 1.5rem;
+  }
+}
+
+.scrollButton.active {
+  transform: scale(1);
+}
+
+.scrollButton.active:hover {
+  border: 2px solid var(--lightblue);
+  background-color: var(--white);
+}
+
+.scrollButton svg {
+  transform: translate(-50%, -50%);
+  max-width: fit-content;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+@media (max-width: 600px) {
+  .scrollButton svg {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+.scrollButton path {
+  fill: var(--lightblue);
+}
+
+/*
+---------------------------
+  Footer
+---------------------------
+*/
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: relative;
+  background-color: var(--darkblue);
+}
+
+@media (max-width: 600px) {
+  footer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+footer h2 {
+  font-size: 1.75rem;
+}
+
+@media (max-width: 500px) {
+  footer h2 {
+    font-size: 1.2rem;
+  }
+}
+
+.footer-info {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  padding: 1rem;
+  align-self: flex-end;
+  color: var(--silver);
+}
+
+@media (max-width: 550px) {
+  .copyright {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    position: static;
+    bottom: 0rem;
+    font-size: 0.8rem;
+  }
+}
+
+.cv {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: fit-content;
+  gap: 1rem;
+  background-color: var(--darkblue);
+  padding: 2rem;
+}
+
+/*
+---------------------------
+  Contact
+---------------------------
+*/
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: fit-content;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+@media (max-width: 380px) {
+  .contact {
+    max-width: 100%;
+    padding: 0;
+  }
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.email {
+  color: var(--lightblue);
+}
+
+@media (max-width: 380px) {
+  .email {
+    font-size: 0.8rem;
+  }
+}
+
+.email:hover {
+  color: var(--white);
+}
+
+/*
+---------------------------
+  Socials
+---------------------------
+*/
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.socials-icon {
+  width: fit-content;
+}
+
+.icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  fill: var(--lightblue);
+  transition: 0.2s;
+}
+
+.icon:hover {
+  fill: var(--white);
+}
+
+/*
+---------------------------
+  Keyframes
+---------------------------
+*/
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(8deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-8deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 hsla(195, 13%, 88%, 1);
+  }
+  100% {
+    box-shadow: 0 0 0 10px hsla(195, 13%, 88%, 0);
+  }
+}
