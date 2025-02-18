@@ -32,16 +32,12 @@ export const technologies = [
     url: "https://nl.wikipedia.org/wiki/CRUD"
   },
   {
-    name: "MySQL",
-    url: "https://nl.wikipedia.org/wiki/MySQL"
+    name: "SQL",
+    url: "https://nl.wikipedia.org/wiki/SQL"
   },
   {
-    name: "SQLite 3",
-    url: "https://en.wikipedia.org/wiki/SQLite"
-  },
-  {
-    name: "jQuery",
-    url: "https://nl.wikipedia.org/wiki/JQuery"
+    name: "NoSQL",
+    url: "https://nl.wikipedia.org/wiki/NoSQL"
   },
   {
     name: "TypeScript",
@@ -52,10 +48,6 @@ export const technologies = [
     url: "https://react.dev/"
   },
   {
-    name: "Angular 2+",
-    url: "https://en.wikipedia.org/wiki/Angular_(web_framework)"
-  },
-  {
     name: "Templating Engines",
     url: "https://en.wikipedia.org/wiki/Template_processor"
   },
@@ -64,19 +56,11 @@ export const technologies = [
     url: "https://nl.wikipedia.org/wiki/Java_(programmeertaal)"
   },
   {
-    name: "Maven",
-    url: "https://maven.apache.org/"
-  },
-  {
     name: "Spring Enterprise",
     url: "https://nl.wikipedia.org/wiki/Spring_Framework"
   },
   {
-    name: "ORM",
-    url: "https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping"
-  },
-  {
-    name: "Material UI",
+    name: "MUI",
     url: "https://mui.com/"
   },
   {
@@ -88,8 +72,16 @@ export const technologies = [
     url: "https://laravel.com/"
   },
   {
-    name: "Hibernate",
-    url: "https://hibernate.org/"
+    name: "Figma",
+    url: "https://figma.com/"
+  },
+  {
+    name: "MS Office",
+    url: "https://office.com/"
+  },
+  {
+    name: "CMS",
+    url: "https://en.wikipedia.org/wiki/Content_management_system"
   },
 ];
 
