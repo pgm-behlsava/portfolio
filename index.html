@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="static/css/main.css" />
   </head>
   <body>
+    <header></header>
     <main>
       <div id="wrapper" class="content-wrapper">
         <section class="jumbo-wrapper">
@@ -31,11 +32,13 @@
           </section>
         </section>
 
+        <!-- <div class="divider mt4rem mb4rem"></div> -->
+
         <div id="parallax" class="parallax"></div>
 
-        <section class="about-me tac mxw600 pt8rem pb4rem">
+        <section id="about" class="about-me tac mxw800 mt8rem mb4rem">
           <h2>Wie ben ik?</h2>
-          <p class="pt4rem">
+          <p class="mt4rem">
             Mijn naam is Behlül en ik studeer via afstandsonderwijs op
             Arteveldehogeschool te Gent.
           </p>
@@ -56,45 +59,48 @@
           </p>
         </section>
 
-        <a href="#contact" class="btn"><h3>Neem contact op</h3></a>
+        <a href="#contact" class="btn btn--contact"
+          ><span>Neem contact op</span></a
+        >
 
-        <section id="services" class="mxw600 pt8rem">
+        <section id="services" class="mxw800 mt8rem">
           <h2>Diensten</h2>
-          <ul id="services-list" class="services-list pt4rem"></ul>
+          <ul id="services-list" class="services-list mt4rem"></ul>
         </section>
 
-        <section id="technologies" class="mxw800 pt8rem">
+        <section id="technologies" class="mxw800 mt8rem">
           <h2>Technologieën</h2>
-          <ul id="tech-list" class="tech-list pt4rem"></ul>
+          <ul id="tech-list" class="tech-list mt4rem"></ul>
         </section>
 
-        <section id="projects" class="mxw600 pt8rem">
+        <section id="projects" class="mxw800 mt8rem">
           <h2>Projecten</h2>
-          <ul id="project-list" class="project-list pt4rem pb4rem"></ul>
+          <ul id="project-list" class="project-list mt4rem mb4rem"></ul>
         </section>
-
-        <a href="#" id="scrollButton" class="scrollButton">
-          <svg
-            width="1200pt"
-            height="1200pt"
-            viewBox="0 0 1200 1200"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill="currentColor"
-              d="m935 490-335-335-335 335 70 70 215-215v705h100v-705l215 215z"
-            />
-          </svg>
-        </a>
       </div>
     </main>
-    <footer class="pt4rem pb4rem">
+    <aside>
+      <a href="#" id="scrollButton" class="scrollButton">
+        <svg
+          width="1200pt"
+          height="1200pt"
+          viewBox="0 0 1200 1200"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill="currentColor"
+            d="m935 490-335-335-335 335 70 70 215-215v705h100v-705l215 215z"
+          />
+        </svg>
+      </a>
+    </aside>
+    <footer>
       <section class="footer-info mxw800">
         <article id="contact" class="contact mxw800">
           <h2>Contactgegevens</h2>
           <hr />
           <section class="contact-info">
-            <h4>Behlül Savaşkurt</h4>
+            <span>Behlül Savaşkurt</span>
             <a class="email" href="mailto:behlulsavaskurt@hotmail.com"
               >behlulsavaskurt@hotmail.com</a
             >
@@ -163,7 +169,7 @@
           </ul>
         </article>
       </section>
-      <section class="cv mxw800 pt4rem pb4rem">
+      <section class="cv mxw800 mt4rem mb4rem">
         <h2>Curriculum Vitae</h2>
         <hr />
         <a

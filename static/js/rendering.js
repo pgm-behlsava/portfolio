@@ -36,11 +36,11 @@ function generateHTMLForTechnologies(technologies) {
 
   let html = "";
 
-  for (const technology of technologies) {
+  for (let i = 0; i < technologies.length; i++) {
     html += `
-      <li>
-        <a href="${technology.url}" target="_blank">
-          <h4>${technology.name}</h4>
+      <li id="technology-${i.toString().padStart(2, "0")}">
+        <a href="${technologies[i].url}" class="btn" target="_blank">
+          <span>${technologies[i].name}</span>
         </a>
       </li>
     `;
@@ -62,14 +62,14 @@ function generateHTMLForServices(services) {
     if (i == 0) {
       html += `
       <li class="service-card open" id="service-${slug}">
-        <h2 class="service-name">${services[i].name}</h2>
+        <h3 class="service-name">${services[i].name}</h3>
         <p class="service-description">${services[i].description}</p>
       </li>
     `;
     } else {
       html += `
       <li class="service-card" id="service-${slug}">
-        <h2 class="service-name">${services[i].name}</h2>
+        <h3 class="service-name">${services[i].name}</h3>
         <p class="service-description">${services[i].description}</p>
       </li>
     `;
