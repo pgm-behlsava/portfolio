@@ -253,7 +253,7 @@ a {
   background: linear-gradient(
     180deg,
     rgb(32, 53, 95) 40%,
-    rgba(12, 39, 64, 1) 86%
+    rgba(12, 39, 64, 1) 93%
   );
   width: 100%;
 }
@@ -776,7 +776,7 @@ footer h2 {
 @media (max-width: 380px) {
   .contact {
     max-width: 100%;
-    padding: 0;
+    padding: 2rem 0;
   }
 }
 

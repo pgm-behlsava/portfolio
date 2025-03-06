@@ -34,9 +34,8 @@ function registerListeners() {
   }
 
   addEventListener("scroll", () => {
-    if (scrollY > $parallax.offsetTop) {
-      $scrollButton.classList.add("active");
-    } else $scrollButton.classList.remove("active");
+    if (scrollY > $parallax.offsetTop) $scrollButton.classList.add("active");
+    else $scrollButton.classList.remove("active");
   });
 }
 
