@@ -23,11 +23,18 @@ function registerListeners() {
       $card.addEventListener("click", function toggleDescription(event) {
         const $openCards = document.querySelectorAll(".service-card.open");
 
-        if (!$card.classList.contains("open")) $card.classList.add("open");
+        if (!$card.classList.contains("open")) {
+          $card.classList.add("open");
+        } else {
+          $card.classList.remove("open");
+        }
 
         $openCards.forEach(($openCard) => {
-          if ($openCard !== event.currentTarget)
+          if ($openCard !== event.currentTarget) {
             $openCard.classList.remove("open");
+          } else {
+            event.currentTarget.classList.remove("open");
+          }
         });
       });
     });

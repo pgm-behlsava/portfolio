@@ -425,7 +425,7 @@ a {
   background-color: var(--mediumblue);
   color: var(--lightblue);
   border: 2px solid transparent;
-  transition: 0.2s all ease;
+  transition: 0.8s all ease;
   position: relative;
 }
 
