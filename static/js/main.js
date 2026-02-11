@@ -5,11 +5,13 @@ import {
   $parallax,
   $scrollButton,
   $serviceCards,
+  $year
 } from "./elements.js";
 
 import { buildUI } from "./rendering.js";
 
 function initialize() {
+  $year.textContent
   transformElement($headshot, 1, 1000);
   transformElement($greeting, 1, 2000);
   transformElement($catchPhrase, 1, 500);

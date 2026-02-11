@@ -8,5 +8,6 @@ const $technologiesList = document.getElementById('tech-list');
 const $servicesList = document.getElementById('services-list');
 const $serviceCards = document.getElementsByClassName('service-card');
 const $projectsList = document.getElementById('project-list');
+const $year = document.getElementById('year');
 
-export {$catchPhrase, $headshot, $greeting, $parallax, $scrollButton, $navigation, $technologiesList, $servicesList, $serviceCards, $projectsList};
+export {$catchPhrase, $headshot, $greeting, $parallax, $scrollButton, $navigation, $technologiesList, $servicesList, $serviceCards, $projectsList, $year};
