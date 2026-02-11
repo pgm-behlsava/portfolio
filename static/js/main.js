@@ -11,7 +11,7 @@ import {
 import { buildUI } from "./rendering.js";
 
 function initialize() {
-  $year.textContent
+  $year.textContent = new Date().getFullYear();
   transformElement($headshot, 1, 1000);
   transformElement($greeting, 1, 2000);
   transformElement($catchPhrase, 1, 500);
